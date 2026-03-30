@@ -57,26 +57,26 @@ from .functions import get_addon_preferences
 from .ui.pie_3dview import Pie3dView
 from .ui.pie_uv_editor import PieUvEditor
 
+# ORDER UPDATED HERE
 from .ui.panel import (
-    UVTOOLKIT_PT_uv_sync,
-    UVTOOLKIT_PT_uv_sync_settings,
-    UVTOOLKIT_PT_tools,
-    UVTOOLKIT_PT_pins,
-    UVTOOLKIT_PT_transform,
     UVTOOLKIT_PT_unwrap,
+    UVTOOLKIT_PT_tools,
+    UVTOOLKIT_PT_transform,
     UVTOOLKIT_PT_align,
     UVTOOLKIT_PT_arrange,
     UVTOOLKIT_PT_select,
+    UVTOOLKIT_PT_pins,
     UVTOOLKIT_PT_display,
-    UVTOOLKIT_PT_uv_maps,
+    UVTOOLKIT_PT_uv_sync,
+    UVTOOLKIT_PT_uv_sync_settings,
     UVTOOLKIT_PT_checker_map,
     UVTOOLKIT_PT_quick_presets,
     UVTOOLKIT_PT_checker_map_square,
     UVTOOLKIT_PT_checker_map_horizontal_rectangle,
     UVTOOLKIT_PT_checker_map_vertical_rectangle,
+    UVTOOLKIT_PT_uv_maps,
     UVTOOLKIT_PT_help,
 )
-
 
 from .register import (
     keymap_register,
@@ -86,7 +86,6 @@ from .register import (
 )
 
 from .addon_preferences import update_addon_category
-
 
 classes = (
     FindShatteredIslands,
@@ -137,23 +136,26 @@ classes = (
     UnstackOverlappedUvs,
     CenterCursorFrameAll,
     TestOp,
-    UVTOOLKIT_PT_uv_sync,
-    UVTOOLKIT_PT_uv_sync_settings,
-    UVTOOLKIT_PT_tools,
-    UVTOOLKIT_PT_pins,
-    UVTOOLKIT_PT_transform,
+    
+    # ORDER UPDATED HERE
     UVTOOLKIT_PT_unwrap,
+    UVTOOLKIT_PT_tools,
+    UVTOOLKIT_PT_transform,
     UVTOOLKIT_PT_align,
     UVTOOLKIT_PT_arrange,
     UVTOOLKIT_PT_select,
+    UVTOOLKIT_PT_pins,
     UVTOOLKIT_PT_display,
-    UVTOOLKIT_PT_uv_maps,
+    UVTOOLKIT_PT_uv_sync,
+    UVTOOLKIT_PT_uv_sync_settings,
     UVTOOLKIT_PT_checker_map,
     UVTOOLKIT_PT_quick_presets,
     UVTOOLKIT_PT_checker_map_square,
     UVTOOLKIT_PT_checker_map_horizontal_rectangle,
     UVTOOLKIT_PT_checker_map_vertical_rectangle,
+    UVTOOLKIT_PT_uv_maps,
     UVTOOLKIT_PT_help,
+    
     Pie3dView,
     PieUvEditor,
     UvToolkitPreferences,
